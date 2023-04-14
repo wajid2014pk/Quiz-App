@@ -2,6 +2,7 @@ import 'question.dart';
 
 class QuizBrain {
   int questionNumber = 0;
+
   List<Question> questionAnswerData = [
     Question('Some cats are actually allergic to humans', true),
     Question('You can lead a cow down stairs but not up stairs.', false),
